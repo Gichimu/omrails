@@ -37,7 +37,7 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 
 # Use postgresql as the production database for Active Record
-# Use sqlite3 as the development database for Active Record
+# and sqlite3 as the development database for Active Record
 group :production do 
 	gem 'pg'
 end
